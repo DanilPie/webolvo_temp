@@ -304,8 +304,42 @@ text-decoration-line: none;
 
 }
 
-.social_link{
+.social_link {
 	display: block;
 	height: 33px;
 	width: 33px;
-}
+ }
+ 
+ .social{
+	 display: flex;
+ }
+ 
+ .social i{
+	 background-color: #444A34;
+	 width: 33px;
+	 height: 33px;
+ border-radius: 50%;
+ padding-top: 8px;
+ padding-left: 9px;
+ color:  #5E6648;
+ transition: color, 1s, ease-in-out;
+ 
+ }
+ .social_link{
+	 margin-right: 10px;
+ }
+ .social_link_fb i{
+	 padding-left: 11px;
+ }
+ .social i:hover{
+	 background-color: #FFD723;
+	 color: #fff;
+ }
+ 
+ .footer_bottom{
+	 padding-top: 24px;
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+ 
+ }
