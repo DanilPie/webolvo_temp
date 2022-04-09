@@ -271,6 +271,8 @@ img {
   min-width: 448px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding-bottom: 52px;
+  border-bottom: 1px solid #5D6544;
 }
 
 .footer_contacts_text {
@@ -284,9 +286,63 @@ img {
 
 .footer_contacts_value {
   display: inline-block;
-  font-weight: 700;
+  font-weight: 600;
   font-style: normal;
   font-size: 16px;
   line-height: 40px;
   color: #FFFFFF;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.footer_contacts_item:not(:last-child) {
+  margin-right: 128px;
+}
+
+.middle_footer_title {
+  margin: 0;
+  margin-bottom: 21px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+
+.middle_footer_link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #B6C197;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.footer_middle {
+  padding-top: 60px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  padding-bottom: 60px;
+  border-bottom: 1px solid #5D6544;
+  gap: 39px;
+}
+
+.middle_footer_text {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 24px;
+  line-height: 26px;
+  color: #B6C197;
+}
+
+.footer__mail {
+  display: inline-block;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  color: #FFFFFF;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
 }
