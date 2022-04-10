@@ -142,20 +142,23 @@ img {
   display: inline-block;
   margin-bottom: 22px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
   color: #fff;
 }
 
 .hero__title {
   margin: 0;
+  transition: 0.2s ease-out;
   margin-bottom: 24px;
   font-weight: 700;
   font-size: 60px;
   line-height: 74px;
   color: #fff;
 }
-
+.hero__title:hover {
+	text-shadow: 2px 4px #c6cc19;
+}
 .hero__desc {
   margin: 0;
   margin-bottom: 45px;
@@ -168,11 +171,22 @@ img {
 .site__title {
   font-weight: 700;
   font-size: 34px;
+  letter-spacing: 2px;
   line-height: 46px;
   color: #4D533C;
+  border-left: 3px solid rgba(0, 0, 0, 0.145947) ;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.145947) ;
+  border-right: 3px solid transparent ;
+  border-top: 3px solid transparent ;
   text-align: center;
+  transition: 0.6s ease-out;
 }
-
+.site__title:hover {
+  border-right: 3px solid rgba(0, 0, 0, 0.145947) ;
+  border-top: 3px solid rgba(0, 0, 0, 0.145947) ;
+  border-bottom: 3px solid transparent ;
+  border-left: 3px solid transparent ;
+}
 .services {
   margin-bottom: -180px;
   padding-top: 150px;
@@ -317,6 +331,11 @@ img {
           text-decoration-line: none;
 }
 
+.middle_footer_link:hover{
+	color: #fafafa;
+
+}
+
 .footer_middle {
   padding-top: 60px;
   display: -ms-grid;
@@ -335,6 +354,7 @@ img {
   line-height: 26px;
   color: #B6C197;
 }
+
 
 .footer__mail {
   display: inline-block;
@@ -396,3 +416,6 @@ img {
       -ms-flex-align: center;
           align-items: center;
 }
+
+
+
